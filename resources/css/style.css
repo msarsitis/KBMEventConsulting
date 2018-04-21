@@ -2,17 +2,43 @@ body {
   font-family: arial, sans-serif;
 }
 
-h1 {
-
-}
-
-.header {
+#mainNav {
   position: fixed;
-}
+  text-align: right;
+  background-color: dimgray;
+  width: 100%;
+  height: 30px;
+  }
 
 .navButtons {
-  font-size: 16px;
-  color: green;
-  text-align: right;
-  font-weight: bold;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 15px;
+  }
+
+.logo {
+  padding: 40px;
+}
+
+#about {
+  border-style: dotted;
+  border-radius: 5px;
+  border-color: dimgray;
+  margin: 5% 5%;
+  padding: 20px;
+  text-align: center;
+}
+
+#portfolio h2 {
+  text-align: center;
+}
+
+.references {
+  text-align: center;
+}
+
+.companies {
+  margin: 0 auto;
 }

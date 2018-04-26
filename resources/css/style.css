@@ -29,6 +29,7 @@ img.medium {
     padding: 15px;
   }
 
+/* Content Formatting */
 #about {
   border-style: dotted;
   border-radius: 5px;
@@ -49,4 +50,12 @@ img.medium {
 
 .companies {
   margin: 0 auto;
+}
+
+#contact {
+width: 100%;
+  background-color: #b3b3b3;
+  color: white;
+  height: 30px;
+  padding-left: 10px;
 }
